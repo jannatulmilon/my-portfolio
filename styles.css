@@ -145,4 +145,10 @@ main section{
 .download{
   text-align: center;
 }
-
+/* footer style */
+footer{
+  display: flex;
+  margin: 100px;
+  padding: 100px 200px;
+  background: #FFF8F3;
+}
