@@ -1,0 +1,40 @@
+/* shared style */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.portfolio-title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+}
+/* primary color */
+.primary-color {
+  color: #fd6e0a;
+}
+/* nav related styles */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+nav > ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+nav li {
+  margin-left: 20px;
+  align-items: center;
+
+}
+nav a {
+  text-decoration: none;
+}
+/* primary button style */
+.primary-button {
+  color: #ffffff;
+  background-color: #fd6e0a;
+  border: none;
+  padding: 15px 10px;
+  border-radius: 5px ;
+}
