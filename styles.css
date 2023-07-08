@@ -1,6 +1,6 @@
 /* shared style */
 body {
-  font-family: "Open Sans", sans-serif; 
+  font-family: "Open Sans", sans-serif;
 }
 .portfolio-title {
   font-family: "Open Sans", sans-serif;
@@ -26,7 +26,6 @@ nav > ul {
 nav li {
   margin-left: 20px;
   align-items: center;
-  
 }
 nav a {
   text-decoration: none;
@@ -43,14 +42,55 @@ nav a {
 /* header related style */
 .header {
   background-color: #fff8f3;
+  background-image: url("/images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 .banner {
-  padding: 30px 30px 30px 150px;
+  padding: 30px 30px 0px 150px;
   display: flex;
-  align-items: center ;
-  
+  justify-content: space-around;
+  align-items: center;
 }
-.banner .profile-picture{
+.banner-content {
+  max-width: 500px;
+}
+.banner .profile-picture {
   width: 500px;
+}
+.banner-greeting {
+  font-size: 45px;
+}
+.banner-title {
+  font-size: 60px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+/* main section style */
 
+/* about section style */
+.about {
+  padding: 131px;
+  background-color: #fff8f3;
+  border-radius: 10px;
+  margin:130 0;
+}
+.about-title {
+  color: var(--dark-01, #181818);
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.about-desc {
+  color: var(--dark-03, #757575);
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
 }
