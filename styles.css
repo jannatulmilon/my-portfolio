@@ -1,6 +1,6 @@
 /* shared style */
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif; 
 }
 .portfolio-title {
   font-family: "Open Sans", sans-serif;
@@ -16,6 +16,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  padding: 200 200;
 }
 nav > ul {
   list-style: none;
@@ -25,10 +26,11 @@ nav > ul {
 nav li {
   margin-left: 20px;
   align-items: center;
-
+  
 }
 nav a {
   text-decoration: none;
+  color: rgb(75, 66, 66);
 }
 /* primary button style */
 .primary-button {
@@ -36,5 +38,19 @@ nav a {
   background-color: #fd6e0a;
   border: none;
   padding: 15px 10px;
-  border-radius: 5px ;
+  border-radius: 5px;
+}
+/* header related style */
+.header {
+  background-color: #fff8f3;
+}
+.banner {
+  padding: 30px 30px 30px 150px;
+  display: flex;
+  align-items: center ;
+  
+}
+.banner .profile-picture{
+  width: 500px;
+
 }
