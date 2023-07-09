@@ -45,7 +45,6 @@ nav a {
   background-image: url("/images/header_bg.png"), url("/images/developer.png");
   background-repeat: no-repeat;
   background-position: bottom right, top left;
-  
 }
 .banner {
   padding: 30px 30px 0px 150px;
@@ -156,20 +155,22 @@ footer {
   padding: 100px 200px;
   background: #fff8f3;
 }
-.footer-column{
+.footer-column {
   width: 50%;
 }
 
-.social-links a{
-  margin-left:50px ;
+.social-links a {
+  margin-left: 50px;
 }
 
-.contact input[type="text"], input[type="email"], textarea{
+.contact input[type="text"],
+input[type="email"],
+textarea {
   display: block;
   margin-bottom: 25px;
   padding: 18px 35px;
   color: #181818;
   border: 0;
-  background-color: bisque ;
+  background-color: bisque;
   width: 100%;
 }
